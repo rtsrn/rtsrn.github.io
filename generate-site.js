@@ -103,8 +103,8 @@ img { max-width: 100%; height: auto; display: block; }
 .header.scrolled { background: rgba(10, 10, 15, 0.95); }
 .header-inner { max-width: var(--max-w); margin: 0 auto; padding: 0 24px; height: 100%; display: flex; align-items: center; justify-content: space-between; }
 .logo-area { display: flex; align-items: center; gap: 14px; }
-.logo-mark { width: 42px; height: 42px; border-radius: 12px; overflow: hidden; background: var(--gradient-primary); padding: 2px; box-shadow: 0 0 20px rgba(108, 92, 231, 0.3); flex-shrink: 0; }
-.logo-mark img { width: 100%; height: 100%; border-radius: 10px; object-fit: cover; }
+.logo-mark { height: 42px; border-radius: 12px; overflow: hidden; background: var(--gradient-primary); padding: 2px; box-shadow: 0 0 20px rgba(108, 92, 231, 0.3); flex-shrink: 0; }
+.logo-mark img { height: 100%; width: auto; border-radius: 10px; display: block; }
 .logo-text-group { display: flex; flex-direction: column; gap: 1px; }
 .logo-text { font-family: 'Space Grotesk', sans-serif; font-size: 1.15rem; font-weight: 700; letter-spacing: -0.02em; background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
 .logo-sub { font-size: .7rem; color: var(--text-muted); letter-spacing: .3px; }
